@@ -1,5 +1,5 @@
 # IT Project Management Plan
-- **Student:** [Your name]
+- **Student:** MI Sorakmony
 - **Course:** IT Project Management
 - **Project:** Realtime Quiz platform
 

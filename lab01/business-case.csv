@@ -1,0 +1,21 @@
+option,line,quantity,unit_cost,per_year,amount,formula
+B,SaaS licence,10,15,12,1800,=C2*D2*E2
+B,Marking time saved,300,10,1,3000,=C3*D3*E3
+B,Net annual benefit,1,1,1,1200,=F3-F2
+B,One-off cost,0,1,1,0,=C5*D5*E5
+B,Payback years,0,1,1,0,"=IF(F4>0,F5/F4,0)"
+B-SENS,SaaS licence (6 lecturers),6,15,12,1080,=C7*D7*E7
+B-SENS,Marking time saved (6 lecturers),180,10,1,1800,=C8*D8*E8
+B-SENS,Net annual benefit (6 lecturers),1,1,1,720,=F8-F7
+C,"Student and PM effort (one-off, notional)",490,10,1,4900,=C10*D10*E10
+C,Hosting,12,25,1,300,=C11*D11*E11
+C,Marking time saved,300,10,1,3000,=C12*D12*E12
+C,SaaS fee avoided vs option B,1,1800,1,1800,=C13*D13*E13
+C,Net annual benefit,1,1,1,4500,=F12+F13-F11
+C,Payback years,1,1,1,1.09,=F10/F14
+C-SENS,"Student and PM effort (one-off, notional)",490,10,1,4900,=C16*D16*E16
+C-SENS,Hosting,12,25,1,300,=C17*D17*E17
+C-SENS,Marking time saved (6 lecturers),180,10,1,1800,=C18*D18*E18
+C-SENS,SaaS fee avoided (6 lecturers),6,15,12,1080,=C19*D19*E19
+C-SENS,Net annual benefit (6 lecturers),1,1,1,2580,=F18+F19-F17
+C-SENS,Payback years (6 lecturers),1,1,1,1.9,=F16/F20
